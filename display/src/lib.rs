@@ -137,7 +137,7 @@ impl<N: Network> Display<N> {
             .constraints([Constraint::Length(3), Constraint::Min(0)].as_ref())
             .split(f.size());
 
-        /* Tabs */
+        /* Tabs Tabs */
 
         // Initialize the tabs.
         let block = Block::default().style(Style::default().bg(Color::Black).fg(Color::White));
